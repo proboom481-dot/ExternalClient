@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "externalclient",
+  "version": "${version}",
+  "name": "ExternalClient",
+  "description": "A customizable visual and PvP client for Minecraft 1.16.5.",
+  "authors": [
+    "ExternalClient Team"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.externalclient.ExternalClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
